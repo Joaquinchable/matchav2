@@ -1,0 +1,122 @@
+ /* selectores son 3 el nombre del elemento, id y class  */
+/* selector con el nombre del elemento 
+
+    background: red;
+ }
+
+/* selector con el id 
+
+#header {
+
+    background: blue;
+}
+
+/*  selector por class 
+
+.header{
+
+    background: purple;
+}
+*/
+
+body {
+    background: burlywood;
+    margin: 0;
+    padding: 0;
+}
+
+.header > * {
+ display: inline-block;
+ font-size: 16px;
+ vertical-align: middle;
+ height: 100%;
+ line-height: 45px;
+}
+
+
+li {
+
+    display: inline;
+}
+
+.logo > img {
+    width: 15%;
+    
+  }
+  
+.navbar {
+ width: 60%;
+}
+
+.navbar ul > li > a {
+
+text-decoration: none;
+color: #025157;
+text-align: center;
+font-weight: 500;
+
+}  
+  
+.actions {
+    width: 15%;
+   
+  }
+
+.actions > a {
+    text-align: right;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 600;
+}  
+
+main {
+
+    margin-top: 140px;
+    text-align: center;
+}
+
+.container-promo {
+    /* background: red;
+    height: 400px; */
+  display: flex;
+   margin: 100px auto;
+   width: 70%;
+   align-items: center; 
+}
+
+.container-promo > video {
+
+    height: 300px;
+    width: 50%;
+}
+
+ .container-promo > article {
+    
+    height: 300px;
+     width: 50%;
+ }
+
+
+
+ .features {
+
+ display: grid;
+ /* grid-template-columns: 300px 300px 300px 300px; */
+ /* repeat(cantidad, tamaño)  */
+  /* grid-template-columns: repeat(3, 300px); */
+  /* grid-template-columns: 1fr 1fr ; */
+  
+  grid-template-columns: repeat( 3 , 1fr)
+ }
+
+ .features > article {
+   
+    width: 200px;
+    height: 200px;
+    background: #025157;
+    margin: 10px;
+
+ }
+
+/* los elementos ya tienen displays definidos por si mismos pero en css puedo cambiar el tipo de display a cualquier elemento  */
+/* Extra postwork  que es un display ?   que es display inline  y display block y tratar de dejar su header como esta en el diseño de matcha*/

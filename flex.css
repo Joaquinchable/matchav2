@@ -1,0 +1,23 @@
+
+.Container{
+    display: flex;
+    /*  flex-direction: column; row column column-reverse */
+    /* flex-wrap: nowrap; wrap wrap-reverse */
+    /* justify-content: center; space-between space-around end  */
+    /* align-items: end; start center */
+    
+    background: aquamarine;
+    height: 500px;
+    margin-top: 500px;
+    margin-bottom: 500px;
+}
+
+.Container > div {
+   
+    height: 50px;
+    width: 50px; 
+    background: black;
+    color: aliceblue;
+    margin: 10px;
+
+}
