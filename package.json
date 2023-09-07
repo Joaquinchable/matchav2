@@ -1,0 +1,26 @@
+{
+  "name": "matcha2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+   "sass": "sass scss/main.scss styles/main.css",
+   "watch": "sass --watch scss/main.scss styles/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joaquinchable/matchav2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joaquinchable/matchav2/issues"
+  },
+  "homepage": "https://github.com/Joaquinchable/matchav2#readme",
+  "devDependencies": {
+    "sass": "^1.66.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.1"
+  }
+}
